@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #222;
+  background-color: #f1f1f1;
+  border: 1px solid transparent;
+}
+
+button:hover {
+  border: 1px solid #000;
+  box-shadow: 0 25px 50px -12px #673ab888;
+}
+
+@media (prefers-color-scheme: dark) {
+  button {
+    color: #ccc;
+    background-color: #505050;
+  }
+  button:hover {
+    border: 1px solid #bbb;
+  }
+}
