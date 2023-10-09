@@ -9,7 +9,7 @@ button {
   margin: 1rem;
   text-align: center;
   text-decoration: none;
-  color: #222;
+  color: #22222259;
   background-color: #f1f1f1;
   border: 1px solid transparent;
 }
@@ -22,7 +22,7 @@ button:hover {
 @media (prefers-color-scheme: dark) {
   button {
     color: #ccc;
-    background-color: #505050;
+    background-color: #505050dd;
   }
   button:hover {
     border: 1px solid #bbb;

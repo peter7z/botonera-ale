@@ -14,6 +14,11 @@
 }
 
 body {
+  border: none;
+  background-image: url('/alejo.jpeg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-color: #cccccc;
   margin: 0;
 }
 
@@ -25,7 +30,7 @@ body {
 
 @media (max-width: 639px) {
   #app {
-    margin: 2rem;
+    padding: 2rem;
   }
 }
 
